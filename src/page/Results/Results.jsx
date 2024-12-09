@@ -1,7 +1,7 @@
 import React ,{useEffect, useState}from 'react'
 import Layout from '../../Components/Layout/Layout'
 import {useParams} from "react-router-dom"
-import classes from "./results.module.css"
+import classes from "./Results.module.css"
 import axios from "axios"
 import { productUrl } from '../../API/endPoints'
 import ProductCard from '../../Components/Product/ProductCard'
